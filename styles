@@ -1,0 +1,62 @@
+body { 
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+    margin-bottom:100px;
+}
+
+header{
+    border-bottom: solid 2px blue;
+     padding: 20px; 
+     font-size: 32px;
+     color: rgb(42,122,228);
+    
+}
+
+.chamada{ 
+    background: rgb(99, 180, 228);
+    padding-bottom: 80px;
+    display: flex; 
+    padding-top:80px;
+    justify-content: center;
+
+}
+
+.chamada-texto{
+    margin-right: 5%; 
+}
+
+h1{
+    font-size:40 px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.categoria-videos img:hover{
+    opacity: 0.5; 
+    border: 3px solid green;
+}
+.categoria-vídeos img{
+    opacity: flex;
+    height: 200px;
+}
+
+
+.categoria-vídeos {
+    display:flex;
+    overflow-x:auto;
+    gap:10px;
+}
+
+.categoria{
+    padding-left:20px;
+    padding-right:20px;
+    margin-top: 50px;
+}
+
+.categoria h2 {
+    color: rgb(42, 122, 228)
+}
